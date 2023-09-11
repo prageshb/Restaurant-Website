@@ -451,11 +451,73 @@ footer{
       margin-top: 45%;
       
     }
-/*
-footer{
-  position: relative;
+
+.footer-main{
+  position: absolute;
   margin-top: 78%;
-}*/
+  margin-left: -2%;
+}
+
+.about-image{
+  width: 60%;
+  position: relative;
+  margin-left: 4%;
+  margin-top: 5%;
+  
+}
+
+.quote1{
+margin-left: 0;
+margin-right: 0;
+position: relative;
+}
+
+.p1-about{
+margin-right: 0;
+margin-left: 0;
+position: relative;
+margin-top: 8%;
+}
+
+.p2-about{
+  padding-bottom: 12%;
+}
+
+.location{
+  margin-top: 20%;
+}
+
+
+.location-contact{
+  margin-right: 0;
+  margin-left: 0;
+  margin-top: 30%;
+}
+
+.para1{
+  margin-top: 30%;
+  margin-right: 30%;
+  margin-left: -5%;
+}
+
+.para2{
+  margin-left: 30%;
+  border: 10px;
+  border-color: white;
+  margin-top: 10%;
+  margin-right: -5%;
+}
+
+.para3{
+  margin-top: 10%;
+  margin-right:0;
+  margin-left: 0;
+  
+}
+
+.res1{
+  margin-top: 30%;
+}
 
   }
   @media (max-width: 995px){
