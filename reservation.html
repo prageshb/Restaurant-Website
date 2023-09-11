@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Foodie Delight</title>
+    <link rel="icon" type="image/x-icon" href="img/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  </head>
+  <body>
+    <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo">Foodie Delight</label>
+      <ul>
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="reservation.html">Reservation</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+    <section class="sec-reservation">
+      <h1 class="heading">FOODIE DELIGHT: RESERVE NOW!</h1>
+      <form class="form-reserve">
+        <label for="name">Name</label><br>
+          <input placeholder="Full Name" id="name" size="30" type="text"><br>
+          <label for="email">Email</label><br>
+          <input id="email" placeholder="Email" size="30" type="text"><br>
+          <label for="number">Contact No</label><br>
+          <input id="number" placeholder="Mobile No" type="text"><br>
+          <label for="table">Available Tables</label><br>
+          <select id="table">
+            <option value="1">Table 3</option>
+            <option value="2">Table 5</option>
+            <option value="3">Table 6</option>
+            <option value="4">Table 8</option>
+            
+          </select><br>
+          <label for="date">Date</label><br>
+          <input type="date"><br>
+        <button class="form-button">Send</button>
+        </form>
+        
+    </section>
+    <footer>
+      <p class="copyright">Copyright © 2023 All Rights Reserved. Pragesh Bhandari.</p>
+    </footer>
+  </body>
+</html>
