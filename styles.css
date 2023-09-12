@@ -93,7 +93,7 @@
   .sec-index{
     background: url(img/fot.jpg) no-repeat;
     background-size: cover;
-    height: calc(122vh - 80px);
+    height: calc(120vh - 80px);
     text-decoration: none;
   }
 
@@ -325,11 +325,11 @@
   font-size: 20px;
   color: #000;
   text-align: center;
-  margin-top: 0%;
+  margin-top: 8%;
   background-color: #54d352;
-  bottom: 0;
-  margin-left: 35%;
-  margin-right: 35%;
+  
+  margin-left: 0%;
+  margin-right: 0%;
   
 }
 
@@ -347,8 +347,8 @@ form{
 
 .form-contact{
   margin-top:8%;
-  background-color: #e5ff00b3;
-  color: #000;
+  background-color: rgba(0,0,0,0.8);
+  color: #ffffff;
   padding-bottom: 1%;
 
 }
